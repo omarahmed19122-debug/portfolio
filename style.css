@@ -1,4 +1,4 @@
-/* Unified Color Theme & Reset */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -12,7 +12,6 @@ body {
     line-height: 1.6;
 }
 
-/* Header & Navigation */
 header {
     background: #0e0e0e;
     color: white;
@@ -42,7 +41,6 @@ nav a:hover {
     transform: translateY(-2px);
 }
 
-/* Main Content */
 main {
     padding: 2rem;
     max-width: 1000px;
@@ -50,7 +48,6 @@ main {
     min-height: 80vh;
 }
 
-/* Table Styling */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -73,7 +70,6 @@ th {
 tr:nth-child(even) { background-color: #f2f2f2; }
 tr:hover { background-color: #e9ecef; }
 
-/* Form Styling */
 form {
     background: white;
     padding: 2rem;
@@ -102,13 +98,11 @@ button {
 
 button:hover { background: #1abc9c; }
 
-/* Responsive Layout */
 @media (max-width: 600px) {
     nav { flex-direction: column; align-items: center; }
     main { padding: 1rem; }
 }
 
-/* Footer */
 footer {
     text-align: center;
     padding: 1.5rem;
